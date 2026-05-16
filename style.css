@@ -109,17 +109,26 @@ p, ol, ul {
 
 /* Footer */
 footer {
-    background-color: #4a90e2; /* Azul igual al header */
-    color: white;
+    background-color: #EBA433; 
+    color:#FFF9F2 ;
     text-align: center;
     padding: 10px;
 }
 
 footer nav a {
-    color: white;
+    color: #FFF9F2;
     margin: 0 10px;
 }
-
+footer nav  a:hover {
+    color: #337AEB;
+    margin: 0 10px;
+}
+aside {
+    text-align: center;
+    padding: 10px;
+    background-color: #202020;
+}
 address {
     text-align: center;
     padding: 10px;
+    background-color: #FFF9F2;
