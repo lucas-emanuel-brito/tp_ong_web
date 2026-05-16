@@ -1,36 +1,77 @@
-/* Fondo general de la página */
-.nosotros {
-    background-color: #f0f8ff; /* Azul muy claro, como un cielo suave */
-    color: #333333; /* Texto oscuro para buena legibilidad */
-    font-family: Arial, sans-serif; /* Fuente simple y legible */
+/*reset basico*/
+* {
+    box-sizing: border-box; margin: 0; padding: 0;
+}
+
+/*estilo base de las paginas*/
+body {
+    background-color: #FFF9F2;
+    color: #FFF9F2;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    justify-content: center;
 }
 
-/* Estilos para el header */
 header {
-    background-color: #4a90e2; /* Azul medio para el header */
-    color: white; /* Texto blanco en el header */
+    background-color: #003247;
     padding: 20px;
     text-align: center;
+    margin: 30px;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 8px;
 }
 
-/* Logo y navegación */
-.Logo img {
+h1 {
+    color: #aec1c7;
+}
+
+.logo img{
+    width: 150px;
+    height: 150px;
     display: block;
     margin: 0 auto;
 }
 
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
 nav a {
-    color: white;
+    color: #aec1c7 ;
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
 }
 
 nav a:hover {
-    color: #ffeb3b; /* Amarillo suave al pasar el mouse */
+    color: #FFF9F2;
 }
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #3f6e7d ;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+h2, h3, p {
+    color: #FFF9F2;
+}
+
+/*estilo de cada pagina en particular*/
+
 
 /* Lista de navegación interna */
 ul {
@@ -47,17 +88,6 @@ ul li a:hover {
     color: #ff5722; /* Naranja para hover */
 }
 
-/* Secciones principales */
-main {
-    padding: 20px;
-}
-
-section {
-    margin-bottom: 40px;
-    padding: 20px;
-    border-radius: 8px; /* Bordes redondeados para suavidad */
-}
-
 /* Fondo específico para cada sección */
 #historia {
     background-color: #e3f2fd; /* Azul muy claro para historia */
@@ -71,10 +101,6 @@ section {
     background-color: #e8f5e8; /* Verde claro para equipo */
 }
 
-/* Títulos */
-h1, h2, h3 {
-    color: #2e7d32; /* Verde oscuro para títulos */
-}
 
 /* Párrafos y listas */
 p, ol, ul {
@@ -97,5 +123,3 @@ footer nav a {
 address {
     text-align: center;
     padding: 10px;
-    background-color: #f0f0f0; /* Gris claro para el copyright */
-}
