@@ -3,72 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contactos-ONG "Doña marci cuida"</title>
+    <title>Contactos</title>
 </head>
 <body>
-   <h1> ONG "doña marci cuida"</h1>
-   <h2> Lista de Contactos </h2>
-
-   <hr>
-
-   <h3>Doña Marciana (fundadora)</h3>
-   <p>Telefono: 11-2345-6789</p>
-   <p>Email:Doñamarcicuida@gmail.com</p>
-
-    <hr>
-
-   <h3>Maria Lopez (Voluntaria)</h3>
-    <p>Telelfono: 11-9876-5432</p>
-    <p>Email:Marialopez2@email.com</p>
-
-    <hr>
-
-    <h3>Juan Perez(coordinador)</h3>
-    <p>Telefono: 11-4567-1122</p>
-    <p>Email:Juanperez@email.com</p>
-
-    <hr>
-
-    <h3>Ana Gomez(Encargada de Donaciones)</h3>
-    <p>Telefono: 11-2233-4455</p>
-    <p>DonacionesMC@gmail.com</p>
-
-    <hr>
-
-    <h3>Carlos Fernandez(Logistica)</h3>
-    <p>Telefono: 11-7788-9900</p>
-    <p>Email:CarlosF@email.com</p>
-
-    <hr>
-
-    <h2>Sedes</h2>
-
-    <h3>Sede Central</h3>
-    <p>Direccion: Pegazzini 123,Buenos Aires</p>
-
-    <hr>
-
-    <h3>Sede Merlo</h3>
-    <p>Direccion:Av.Siempre 742,Merlo</p>
-
-    <hr>
-
-    <h2>Formulario de Contacto</h2>
-     <form action="">
-      Nombre
-    <label for="Nombre:"></label><br>
-    <input type="text" Name="nombre"><br><br>
-     Correo Electronico
-    <label for="Email:"></label><br>
-    <input type="email" Name="email"><br><br>
-     dejar algun comentario*
-
-    <label for="Mensaje:"></label><br>
-    <textarea name="Mensaje" id=""></textarea><br><br>
-    <input type="submit" volve="Enviar">
+     <header>
+         <a href="contacto.html" class="Logo">
+             <img src="logo.jpeg" alt="">
+         </a>
+         <h1>Doña Marci Cuida</h1>
+         <nav>
+            <a href="index.html" rel="noopener noreferrer">Inicio</a>
+            <a href="nosotros.html" rel="noopener noreferrer">Nosotros</a>
+            <a href="programas.html" rel="noopener noreferrer">Programas</a>
+            <a href="contacto.html"  rel="noopener noreferrer">Contactos</a>
+         </nav>
+    </header>
+     <main>        
+       <section>
+        <h2>Nuestro Equipo</h2>
+        <ul>
+            <li><strong>Fundadora</strong> [Doña marci]</li>
+            <li><strong>Secretario:</strong>[Yohana Escobar Montiel]</li>
+            <li><strong>Tesorero:</strong> [Cristhian Esperon Del Valle]</li>
+            <li><strong>Presidente:</strong> [Lucas Emanuel Brito]</li>
+            <li><strong>Vicepresidente:</strong>[Rosana del Valle Morales]</li>
+        </ul>
+        <section>
+           <h2>Números de Teléfono</h2>
+        <p>Puedes comunicarte con nosotros a través de las siguientes líneas:</p>
+        <ul>
+            <li><strong>Línea Principal:</strong> (011) 4321-0040</li>
+            <li><strong>WhatsApp:</strong> +54 9 11 1000-5000</li>
+            <li><strong>Atención al donante:</strong> (011) 4876-5432</li>
+        </ul>
 
 
-    </form>
+           <section>
+        <h2>Nuestras Sedes</h2>
+        
+        <h3>Sede Central</h3>
+        <p>Calle Rivadavia 123, Ciudad Autónoma de Buenos Aires.</p>
 
+        <h3>Sede Norte</h3>
+        <p>Avenida Siempre Viva 742, Zona Norte.</p>
+
+        <h3>Centro de Ayuda Comunitario</h3>
+        <p>Barrio Esperanza, Manzana 4, Lote 10.</p>
+    </section>
+       <hr>
+         
+
+    <!-- Sección: Formulario de Contacto -->
+    <section>
+        <h2>Envianos un mensaje</h2>
+        <p>Si querés ser voluntario o necesitás ayuda, completá el siguiente formulario:</p>
+        
+        <form action="#" method="post">
+            <p>
+                <label for="nombre">Nombre completo:</label><br>
+                <input type="text" id="nombre" name="nombre" placeholder="Ej: Juan Pérez" required>
+            </p>
+
+            <p>
+                <label for="email">Correo electrónico:</label><br>
+                <input type="email" id="email" name="email" placeholder="nombre@ejemplo.com" required>
+            </p>
+
+            <p>
+                <label for="motivo">Motivo de contacto:</label><br>
+                <select id="motivo" name="motivo">
+                    <option value="donacion">Quiero donar</option>
+                    <option value="voluntario">Quiero ser voluntario</option>
+                    <option value="ayuda">Necesito asistencia</option>
+                    <option value="otro">Otro motivo</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="mensaje">Tu mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="5" cols="40" placeholder="Escribí aquí tu consulta..."></textarea>
+            </p>
+
+            <p>
+                <input type="submit" value="Enviar mensaje">
+                <input type="reset" value="Limpiar formulario">
+            </p>
+        </form>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+     </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <address>
+        <p>
+            Copyright © 2026 | Doña Marci Cuida
+        </p>
+    </address>
 </body>
-</html>
+</html> 
