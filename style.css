@@ -3,10 +3,18 @@
     box-sizing: border-box; margin: 0; padding: 0;
 }
 
+:root {
+    --color-primario: #3f6e7d;
+    --color-secundario: #fff9f2;
+    --color-nav: #003247;
+    --color-complementario: #EBA433;
+
+}
+
 /*estilo base de las paginas*/
 body {
-    background-color: #FFF9F2;
-    color: #FFF9F2;
+    background-color: var(--color-secundario);
+    color: var(--color-secundario);
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -14,7 +22,7 @@ body {
 }
 
 header {
-    background-color: #003247;
+    background-color: var(--color-nav);
     padding: 20px;
     text-align: center;
     margin: 30px;
@@ -51,7 +59,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #FFF9F2;
+    color: var(--color-secundario);
 }
 
 main {
@@ -59,7 +67,7 @@ main {
 }
 
 section {
-    background-color: #3f6e7d ;
+    background-color: var(--color-primario) ;
     margin-bottom: 40px;
     padding: 20px;
     border-radius: 8px;
@@ -67,7 +75,7 @@ section {
 }
 
 h2, h3, p {
-    color: #FFF9F2;
+    color: var(--color-secundario);
 }
 
 /*estilo de cada pagina en particular*/
@@ -80,7 +88,7 @@ ul {
 }
 
 ul li a {
-    color: #10355f; /* Azul para enlaces internos */
+    color: #e3f2fd; /* Azul para enlaces internos */
     text-decoration: none;
 }
 
@@ -109,7 +117,7 @@ p, ol, ul {
 
 /* Footer */
 footer {
-    background-color: #EBA433; 
+    background-color: var(--color-complementario); 
     color:#FFF9F2 ;
     text-align: center;
     padding: 10px;
@@ -132,3 +140,4 @@ address {
     text-align: center;
     padding: 10px;
     background-color: #FFF9F2;
+}
