@@ -1,0 +1,168 @@
+/*reset basico*/
+* {
+    box-sizing: border-box; margin: 0; padding: 0;
+}
+
+:root {
+    --color-primario: #3f6e7d;
+    --color-secundario: #fff9f2;
+    --color-nav: #003247;
+    --color-complementario: #EBA433;
+
+}
+
+/*estilo base de las paginas*/
+body {
+    background-color: var(--color-secundario);
+    color: var(--color-secundario);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+header {
+    background-color: var(--color-nav);
+    padding: 20px;
+    text-align: center;
+    margin: 30px;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #aec1c7;
+}
+
+.logo img{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #aec1c7 ;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: var(--color-secundario);
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: var(--color-primario) ;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+h2, h3, p {
+    color: var(--color-secundario);
+}
+
+/*estilo de cada pagina en particular*/
+
+/*Programas*/
+.programas {
+  display: grid;
+  grid-template-areas:
+    "titulo titulo"
+    "imagen texto";
+  grid-template-columns: auto 1fr;
+  gap: 1rem;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.programas h2 {
+  grid-area: titulo;
+}
+
+.programas img {
+  grid-area: imagen;
+  width: 400px;
+  height: 400px;
+}
+
+.programas p {
+  grid-area: texto;
+}
+
+/* Lista de navegación interna */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li a {
+    color: #e3f2fd; /* Azul para enlaces internos */
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: #ff5722; /* Naranja para hover */
+}
+
+/* Fondo específico para cada sección */
+#historia {
+    background-color: #e3f2fd; /* Azul muy claro para historia */
+}
+
+#valores {
+    background-color: #f3e5f5; /* Lila claro para valores */
+}
+
+#equipo {
+    background-color: #e8f5e8; /* Verde claro para equipo */
+}
+
+
+/* Párrafos y listas */
+p, ol, ul {
+    line-height: 1.6; /* Mejor legibilidad */
+}
+
+/* Footer */
+footer {
+    background-color: var(--color-complementario); 
+    color:#FFF9F2 ;
+    text-align: center;
+    padding: 10px;
+}
+
+footer nav a {
+    color: #FFF9F2;
+    margin: 0 10px;
+}
+footer nav  a:hover {
+    color: #337AEB;
+    margin: 0 10px;
+}
+aside {
+    text-align: center;
+    padding: 10px;
+    background-color: #202020;
+}
+address {
+    text-align: center;
+    padding: 10px;
+    background-color: #FFF9F2;
+}
