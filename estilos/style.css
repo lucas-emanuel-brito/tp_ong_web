@@ -83,27 +83,33 @@ h2, h3, p {
 
 /*Programas*/
 .programas {
-  display: grid;
-  grid-template-areas:
-    "titulo titulo"
-    "imagen texto";
-  grid-template-columns: auto 1fr;
-  gap: 1rem;
-  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.programas h2 {
-  grid-area: titulo;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .programas img {
-  grid-area: imagen;
-  width: 400px;
-  height: 400px;
+    border-radius: 8px;
+    grid-area: 1 / 1 / 5 / 2;
+    width: 500px;
+    height: 500px;
 }
 
+.programas h2 {
+    grid-area: 1 / 2 / 2 / 3; /*fila, columna, fila, columna*/
+}
 .programas p {
-  grid-area: texto;
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.programas h3 {
+    grid-area: 3 / 2 / 4 / 3;
+}
+
+.programas ul {
+    grid-area: 4 / 2 / 5 / 3;
 }
 
 /* Lista de navegación interna */
