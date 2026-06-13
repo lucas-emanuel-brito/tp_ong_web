@@ -127,20 +127,6 @@ ul li a:hover {
     color: #ff5722; /* Naranja para hover */
 }
 
-/* Fondo específico para cada sección */
-#historia {
-    background-color: #e3f2fd; /* Azul muy claro para historia */
-}
-
-#valores {
-    background-color: #f3e5f5; /* Lila claro para valores */
-}
-
-#equipo {
-    background-color: #e8f5e8; /* Verde claro para equipo */
-}
-
-
 /* Párrafos y listas */
 p, ol, ul {
     line-height: 1.6; /* Mejor legibilidad */
