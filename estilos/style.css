@@ -33,9 +33,9 @@ header {
     padding: 20px;
     border-radius: 0 0 8px 8px;
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
-    /*position: sticky;
+    position: sticky;
     top: 0;
-    z-index: 100;*/
+    z-index: 100;
 }
 
 h1 {
@@ -171,10 +171,6 @@ ul {
 ul li a {
     color: #e3f2fd; /* Azul para enlaces internos */
     text-decoration: none;
-}
-
-ul li a:hover {
-    color: #ff5722; /* Naranja para hover */
 }
 
 /* Párrafos y listas */
