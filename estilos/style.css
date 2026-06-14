@@ -33,9 +33,9 @@ header {
     padding: 20px;
     border-radius: 0 0 8px 8px;
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
-    /*position: sticky;
+    position: sticky;
     top: 0;
-    z-index: 100;*/
+    z-index: 100;
 }
 
 h1 {
@@ -243,3 +243,4 @@ address p {
     color: rgb(82, 82, 82);
     font-size: 0.85rem;
 }
+
