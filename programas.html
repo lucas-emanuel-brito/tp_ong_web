@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nuestros Programas</title>
-    <!-- ========== ACA VA LINK BOOTSTRAP ==========-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/estilos/style.css">
 </head>
 <body>
@@ -21,12 +24,20 @@
                 <li><a href="contacto.html"  rel="noopener noreferrer">Contactos</a></li>
             </ul>
         </nav>
+        <nav class="sub-menu">
+            <ul>
+                <li><a href="#comedor">Comedor Doña Marci</a></li>
+                <li><a href="#ropero">Ropero Comunitario</a></li>
+                <li><a href="#estudio">Apoyo Escolar</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <section class="programas">
+        <section class="programas" id="comedor">
             <h2>🍜Comedores Doña Marci Cuida🍜</h2>
             <img src="/Multimedia/Imagenes/Comedor-Comunitario-Programa.png" alt="foto de unos de los comedores comunitario de Doña Marci Cuida">
-            <p>La organización cuenta actualmente con una red activa de más de <strong>20 comedores</strong> distribuidos a lo largo de todo el país, lo que permite brindar asistencia alimentaria diaria a más de 15 familias en cada uno de estos espacios. Estos comedores no solo ofrecen alimentos nutritivos, sino que también funcionan como puntos de encuentro comunitario donde se promueve la contención social y el acompañamiento a personas en situación de vulnerabilidad. El funcionamiento sostenido de esta red es posible gracias al compromiso de diversas instituciones colaboradoras, así como a las donaciones constantes de particulares. Entre las ubicaciones donde la ONG desarrolla sus actividades se encuentran Buenos Aires, La Plata, Mar del Plata, Bahía Blanca, Córdoba, Villa María, Rosario, Santa Fe, Paraná, Mendoza, San Rafael, San Juan, San Luis, Salta, San Salvador de Jujuy, Tucumán, Santiago del Estero, Neuquén, Bariloche y Comodoro Rivadavia. Además, se llevan a cabo campañas periódicas de recolección de alimentos y otros insumos esenciales para garantizar la continuidad del servicio. La organización invita a quienes deseen colaborar a sumarse como voluntarios o realizar donaciones a través de los canales disponibles en su <em>página de contacto</em>.</p>
+            <p>
+                La organización cuenta actualmente con una red activa de más de <strong>20 comedores</strong> distribuidos a lo largo de todo el país, lo que permite brindar asistencia alimentaria diaria a más de 15 familias en cada uno de estos espacios. Estos comedores no solo ofrecen alimentos nutritivos, sino que también funcionan como puntos de encuentro comunitario donde se promueve la contención social y el acompañamiento a personas en situación de vulnerabilidad. El funcionamiento sostenido de esta red es posible gracias al compromiso de diversas instituciones colaboradoras, así como a las donaciones constantes de particulares. Entre las ubicaciones donde la ONG desarrolla sus actividades se encuentran Buenos Aires, La Plata, Mar del Plata, Bahía Blanca, Córdoba, Villa María, Rosario, Santa Fe, Paraná, Mendoza, San Rafael, San Juan, San Luis, Salta, San Salvador de Jujuy, Tucumán, Santiago del Estero, Neuquén, Bariloche y Comodoro Rivadavia. Además, se llevan a cabo campañas periódicas de recolección de alimentos y otros insumos esenciales para garantizar la continuidad del servicio. La organización invita a quienes deseen colaborar a sumarse como voluntarios o realizar donaciones a través de los canales disponibles en su <em>página de contacto</em>.</p>
             <p>
                 <h3>
                     Lista de Ubicaciones
@@ -45,14 +56,14 @@
                 </ul>
             </p>
         </section> 
-        <section class="programas">    
+        <section class="programas" id="ropero">    
             <h2>👕Ropero Comunitario DMC👚</h2>
             <img src="/Multimedia/Imagenes/Ropero-Comunitario.png" alt="foto del ropero comunitario Doña Marci Cuida">
             <p>La organización también cuenta con un <strong>Ropero Comunitario</strong> destinado a brindar acceso gratuito a prendas de vestir para personas que lo necesiten. Este espacio está pensado para acompañar a familias en situación de vulnerabilidad, ofreciendo ropa en buen estado para adultos, jóvenes y niños, adaptándose a distintas edades y necesidades. El ropero funciona como un complemento fundamental de los comedores, promoviendo no solo la asistencia básica, sino también la dignidad y el bienestar de quienes se acercan.
             Gracias a las donaciones de la comunidad, el espacio se mantiene activo durante todo el año. Sin embargo, es importante que las prendas donadas cumplan con ciertos requisitos para asegurar su correcta utilización: no deben estar agujereadas ni manchadas, deben presentar estampas sobrias o neutras, y encontrarse limpias, secas y sin olores. Estas condiciones permiten que la ropa pueda ser entregada directamente a quienes la necesiten, sin necesidad de procesos adicionales.
             Quienes deseen colaborar pueden acercar sus donaciones o comunicarse a través de las vías disponibles en la sección de <em>contacto de la página</em>, contribuyendo así a seguir ampliando el alcance de esta iniciativa solidaria.</p>
         </section>
-        <section class="programas">  
+        <section class="programas" id="estudio">  
             <h2>📚Apoyo Escolar DMC📚</h2>
             <img src="/Multimedia/Imagenes/Apoyo-Escolar.png" alt="foto de niños participando del programa apoyo escolar">
             <p>La organización ofrece un <strong>programa de apoyo escolar</strong> destinado a niños y adolescentes que se encuentren cursando la educación primaria y secundaria, con el objetivo de acompañar sus trayectorias educativas y fortalecer su aprendizaje. Este espacio busca brindar herramientas que permitan mejorar el rendimiento académico, reforzar contenidos y fomentar hábitos de estudio en un entorno de contención y acompañamiento.
@@ -75,7 +86,9 @@
         </section>    
     </main>
     <aside>
-
+        <a href="contacto.html">
+            <h2>Sumate y Ayudanos</h2>
+        </a>
     </aside>
     <footer>
         <nav>
@@ -92,5 +105,6 @@
             Copyright © 2026 | Doña Marci Cuida
         </p>
     </address>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
