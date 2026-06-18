@@ -4,24 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doña Marci Cuida</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
-
     <header>
-        <a href="index.html" class="logo">
-            <img src="Multimedia/Imagenes/Doña-Marci-Cuida.png" alt="Logo Doña Marci Cuida" width="200" height="200">
-        </a>
-        <h1>
-            Doña Marci Cuida
-        </h1>
-        <nav>
-            <a href="index.html">Inicio</a>
-            <a href="nosotros.html">Nosotros</a>
-            <a href="programas.html">Programas</a>
-            <a href="contacto.html">Contactos</a>
-        </nav>
-    </header>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+      <!-- Logo / Brand -->
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="Multimedia/Imagenes/Doña-Marci-Cuida.png" alt="Logo Doña Marci Cuida" width="40" height="40" class="me-2">
+        Doña Marci Cuida
+      </a>
+
+      <!-- Botón hamburguesa (visible en celulares) -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+        aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Links del menú -->
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="programas.html">Programas</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contactos</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
     <main>
         <h2>Solidaridad que transforma vidas</h2>
         <section>
@@ -47,14 +65,14 @@
             <h3>Misión</h3>
             <p>
                 Brindar apoyo integral a niños, abuelos y familias.
-            </p>s
+            </p>
             <h3>Visión</h3>
             <p>
                 ser un espacio de esperanza y resiliencia.
             </p>
             <h3>Valores</h3>
             <p>
-                Solidaridad, compromiso, amor al projimo.
+                Solidaridad, compromiso, amor al prójimo.
             </p>
         </section>
         <section>
@@ -64,7 +82,7 @@
                 Brindamos comidas diarias y acompañamiento de familias en situación de vulnerabilidad.
 
             </p>
-            <h3>Ropero Comunitario Doña Marci Cuid</h3>
+            <h3>Ropero Comunitario Doña Marci Cuida</h3>
             <p>
                 Ofrecemos ropa y calzado a quienes más lo necesitan, promoviendo la dignidad y el cuidado.
 
@@ -92,6 +110,7 @@
             Copyright © 2026 | Doña Marci Cuida
         </p>
     </address>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
   
