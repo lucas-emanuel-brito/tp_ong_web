@@ -272,3 +272,44 @@ address p {
     font-size: 0.85rem;
 }
 
+.nosotros dl {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nosotros_carta {
+    width: 220px;
+    background: white;
+    color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.nosotros_carta dt {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #2c6b7d;
+    margin-bottom: 10px;
+}
+
+.nosotros_carta dd {
+    margin: 5px 0;
+}
+
+.aside a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--color-complementario);
+    color: #e3f2fd;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.aside a:hover {
+    background-color: #ff5722;
+    color: #fff9f2;
+}
