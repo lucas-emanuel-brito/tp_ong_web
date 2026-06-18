@@ -34,7 +34,7 @@ header {
     border-radius: 0 0 8px 8px;
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
     position: sticky;
-    top: 0;
+    top: 1;
     z-index: 100;
 }
 
@@ -94,7 +94,7 @@ nav a:hover {
 }
 
 main {
-    padding: 20px 0;
+    padding: 1.5rem 0;
 }
 
 section {
@@ -103,14 +103,14 @@ section {
     padding: 24px;
     border-radius: 8px;
     text-align: center;
-    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.15);
+    /*box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.15);*/
 }
 
 h2 {
     color: var(--color-secundario);
     font-size: 1.5rem;
     font-weight: 700;
-    margin-bottom: 0.75rem;
+    margin-bottom: 1.5rem;
 }
 
 h3 {
@@ -127,40 +127,72 @@ p {
 
 /*estilo de cada pagina en particular*/
 
-/*Programas*/
-.programas {
-    display: grid;
-    grid-template-rows: auto auto auto auto;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+/*Index*/
+.foto-ong {
+    text-align: center;
+    margin-bottom: 1.5rem;
 }
 
-.programas img {
-    border-radius: 8px;
-    grid-area: 1 / 1 / 5 / 2;
-    width: 100%;
-    max-width: 480px;
+.foto-ong .foto-grupal {
+    max-width: 100%;
     height: auto;
+    max-height: 420px;
     object-fit: cover;
-    align-self: start;
+    width: 100%;
+    border-radius: 6px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
-.programas h2 {
-    grid-area: 1 / 2 / 2 / 3; /*fila, columna, fila, columna*/
-}
-.programas p {
-    grid-area: 2 / 2 / 3 / 3;
+
+
+
+/*cards*/
+.card-ong {
+    background-color: rgba(0, 0, 0, 0.18);
+    border: 1px solid rgba(255,255,255,0.12);
+    color: var(--color-secundario);
 }
 
-.programas h3 {
-    grid-area: 3 / 2 / 4 / 3;
+.card-ong .card-title {
+    color: var(--color-complementario);
+    font-weight: 700;
 }
 
-.programas ul {
-    grid-area: 4 / 2 / 5 / 3;
-    padding-left: 1.2rem;
+.card-ong .card-text {
+    color: var(--color-secundario);
 }
+
+
+/*Programas*/
+.seccion {
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 6px;
+}
+
+.seccion .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.seccion .programas-img {
+    flex: 0 0 calc(41.666% - 0.75rem);
+    min-width: 280px;
+}
+.seccion .programas-texto {
+    flex: 1 1 300px;
+}
+
+.seccion .programas-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 0.375rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.15);
+}
+
 
 /* Lista de navegación interna */
 ul {
@@ -240,3 +272,44 @@ address p {
     font-size: 0.85rem;
 }
 
+.nosotros dl {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nosotros_carta {
+    width: 220px;
+    background: white;
+    color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.nosotros_carta dt {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #2c6b7d;
+    margin-bottom: 10px;
+}
+
+.nosotros_carta dd {
+    margin: 5px 0;
+}
+
+.aside a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--color-complementario);
+    color: #e3f2fd;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.aside a:hover {
+    background-color: #ff5722;
+    color: #fff9f2;
+}
