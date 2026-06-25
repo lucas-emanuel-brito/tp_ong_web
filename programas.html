@@ -8,59 +8,57 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/estilos/style.css">
+    <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
-   <header>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-    <div class="container-fluid">
-      <!-- Logo / Brand -->
-      <a class="navbar-brand d-flex align-items-center" href="index.html">
-        <img src="Multimedia/Imagenes/Doña-Marci-Cuida.png" alt="Logo Doña Marci Cuida" width="50" height="50" class="me-2">
-        Doña Marci Cuida
-      </a>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+            <div class="container-fluid">
+            <!-- Logo / Brand -->
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="Multimedia/Imagenes/Doña-Marci-Cuida.png" alt="Logo Doña Marci Cuida" width="50" height="50" class="me-2">
+                    Doña Marci Cuida
+                </a>
 
-      <!-- Botón hamburguesa --> (visibles en celulares)
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
-        aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+                <!-- Botón hamburguesa --> (visibles en celulares)
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-      <!-- Links del menú -->
-      <div class="collapse navbar-collapse" id="menu">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-          <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
-          <li class="nav-item"><a class="nav-link" href="programas.html">Programas</a></li>
-          <li class="nav-item"><a class="nav-link" href="contacto.html">Contactos</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+                <!-- Links del menú -->
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="programas.html">Programas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contacto.html">Contactos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-  <!-- Submenú específico de "Nosotros" -->
-  <nav class="sub-menu mt-2">
-    <ul class="nav justify-content-center">
-      <li class="nav-item"><a class="nav-link" href="#historia">Historia</a></li>
-      <li class="nav-item"><a class="nav-link" href="#valores">Valores</a></li>
-      <li class="nav-item"><a class="nav-link" href="#equipo">Equipo</a></li>
-    </ul>
-  </nav>
-</header>
+        <!-- Submenú específico de "Programas" -->
+        <nav class="sub-menu mt-2">
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link" href="#comedor">Comedores</a></li>
+                <li class="nav-item"><a class="nav-link" href="#ropero">Ropero Comunitario</a></li>
+                <li class="nav-item"><a class="nav-link" href="#estudio">Apoyo Escolar</a></li>
+            </ul>
+        </nav>
+    </header>
 
 
     <main>
-
         <section class="banner-hero p-4 mb-4 rounded text-center">
-            <h2 class="fw-bold">Nuestros Programas</h2>
+            <h1 class="fw-bold">Nuestros Programas</h1>
             <p class="lead">Conocé todas las formas en que trabajamos <strong>POR</strong> y <strong>PARA</strong> la comunidad</p>
         </section>
 
         <!-- PROGRAMA: COMEDOR -->
         <section class="mb-4 p-4 rounded" id="comedor">
-            <section class="row aling-items-center g-4">
+            <div class="row align-items-center g-4">
                 <div class="col-12 col-md-5">
-                    <img src="/Multimedia/Imagenes/Comedor-Comunitario-Programa.png" alt="foto de unos de los comedores comunitario de Doña Marci Cuida" class="img-fluid rounded shadow">
+                    <img src="Multimedia/Imagenes/Comedor-Comunitario-Programa.png" alt="foto de unos de los comedores comunitario de Doña Marci Cuida" class="img-fluid rounded shadow">
                 </div>
                 <div class="col-12 col-md-7">
                     <h2>🍜Comedores Doña Marci Cuida🍜</h2>
@@ -83,14 +81,14 @@
                         </ul>
                     </p>
                 </div>
-            </section>  
+            </div>  
         </section>
 
         <!-- PROGRAMA: ROPERO -->
         <section class="seccion" id="ropero">
-            <section class="row">
+            <div class="row">
                 <div class="programas-img">
-                    <img src="/Multimedia/Imagenes/Ropero-Comunitario.png" alt="foto del ropero comunitario Doña Marci Cuida" class="img-fluid rounded shadow">
+                    <img src="Multimedia/Imagenes/Ropero-Comunitario.png" alt="foto del ropero comunitario Doña Marci Cuida" class="img-fluid rounded shadow">
                 </div>
                 <div class="programas-texto">
                     <h2>👕Ropero Comunitario DMC👚</h2>
@@ -98,14 +96,14 @@
                     Gracias a las donaciones de la comunidad, el espacio se mantiene activo durante todo el año. Sin embargo, es importante que las prendas donadas cumplan con ciertos requisitos para asegurar su correcta utilización: no deben estar agujereadas ni manchadas, deben presentar estampas sobrias o neutras, y encontrarse limpias, secas y sin olores. Estas condiciones permiten que la ropa pueda ser entregada directamente a quienes la necesiten, sin necesidad de procesos adicionales.
                     Quienes deseen colaborar pueden acercar sus donaciones o comunicarse a través de las vías disponibles en la sección de <em>contacto de la página</em>, contribuyendo así a seguir ampliando el alcance de esta iniciativa solidaria.</p>
                 </div>
-            </section>
+            </div>
         </section>
 
         <!-- PROGRAMA: APOYO ESCOLAR -->
         <section class="seccion" id="estudio">
-            <section class="row">
+            <div class="row">
                 <div class="programas-img">
-                    <img src="/Multimedia/Imagenes/Apoyo-Escolar.png" alt="foto de niños participando del programa apoyo escolar" class="img-fluid rounded shadow">
+                    <img src="Multimedia/Imagenes/Apoyo-Escolar.png" alt="foto de niños participando del programa apoyo escolar" class="img-fluid rounded shadow">
                 </div>
                 <div class="programas-texto">
                     <h2>📚Apoyo Escolar DMC📚</h2>
@@ -127,12 +125,18 @@
                         </ul>
                     </p>
                 </div>
-            </section>
-        </section>    
+            </div>
+        </section>
     </main>
     <aside class="container mb-4">
         <section class="aside-banner text-center p-4 rounded">
-            <h4>¿Queres colaborar con nuestros programas?</h4>
+            <h2>¿Queres colaborar con nuestros programas?</h2>
+            <h4>Pasos para colaborar</h4>
+            <ol>
+                <li>Completar el formulario de contacto.</li>
+                <li>Esperar la respuesta del equipo.</li>
+                <li>Coordinar la forma de participación.</li>
+            </ol>
             <a href="contacto.html" class="btn btn-donar mt-2">Sumate y Ayudanos →
             </a>
         </section>
