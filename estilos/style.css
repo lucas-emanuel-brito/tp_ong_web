@@ -3,6 +3,7 @@
     --color-secundario: #fff9f2;
     --color-nav: #003247;
     --color-complementario: #EBA433;
+    --color-texto: #f2f2f2;
     --fuente-principal: "Nunito", sans-serif;
 
 }
@@ -15,7 +16,7 @@
 /*estilo base de las paginas*/
 body {
     background-color: var(--color-secundario);
-    color: var(--color-secundario);
+    color: var(--color-texto);
     font-family: var(--fuente-principal), sans-serif;
     font-size: 16px;
     line-height: 1.7;
@@ -39,7 +40,7 @@ header {
 }
 
 h1 {
-    color: #aec1c7;
+    color: var(--color-texto);
     font-size: 2rem;
     font-weight: 800;
     letter-spacing: 0.5px;
@@ -52,6 +53,10 @@ h1 {
     margin: 0 auto 10px auto;
     border-radius: 50%;
     object-fit: cover;
+}
+
+.navabar-brand, .nav-link{
+    color: var(--color-texto)
 }
 
 nav {
@@ -77,7 +82,7 @@ nav ul li {
 }
 
 nav a {
-    color: #aec1c7 ;
+    color: var(--color-texto);
     text-decoration: none;
     padding: 6px 14px;
     border-radius: 4px;
@@ -103,11 +108,11 @@ section {
     padding: 24px;
     border-radius: 8px;
     text-align: center;
-    /*box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.15);*/
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 h2 {
-    color: var(--color-secundario);
+    color: var(--color-texto);
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 1.5rem;
@@ -121,7 +126,7 @@ h3 {
 }
 
 p {
-    color: var(--color-secundario);
+    color: var(--color-texto);
     margin-bottom: 0.75rem;
 }
 
@@ -160,7 +165,7 @@ p {
 .card-ong {
     background-color: rgba(0, 0, 0, 0.18);
     border: 1px solid rgba(255,255,255,0.12);
-    color: var(--color-secundario);
+    color: var(--color-texto);
 }
 
 .card-ong .card-title {
@@ -169,7 +174,7 @@ p {
 }
 
 .card-ong .card-text {
-    color: var(--color-secundario);
+    color: var(--color-texto);
 }
 
 
@@ -211,7 +216,7 @@ ul {
 }
 
 ul li a {
-    color: #e3f2fd; /* Azul para enlaces internos */
+    color: var(--color-texto); /* Azul para enlaces internos */
     text-decoration: none;
 }
 
@@ -223,7 +228,7 @@ p, ol, ul {
 /* Footer */
 footer {
     background-color: var(--color-complementario); 
-    color:#FFF9F2 ;
+    color:var(--color-texto) ;
     text-align: center;
     padding: 16px;
     border-radius: 8px 8px 0 0;
@@ -238,13 +243,13 @@ footer nav {
 }
 
 footer nav a {
-    color: #FFF9F2;
+    color: var(--color-texto);
     padding: 4px 10px;
     font-weight: bold;
 }
 
 footer nav  a:hover {
-    color: #337AEB;
+    color: var(--color-primario);
 }
 
 aside {
@@ -267,7 +272,7 @@ aside a {
 }
 
 aside a:hover {
-    color: var(--color-secundario);
+    color: var(--color-complementario);
 }
 
 address {
