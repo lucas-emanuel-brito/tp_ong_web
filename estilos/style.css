@@ -328,3 +328,26 @@ address p {
     background-color: #ff5722;
     color: #fff9f2;
 }
+
+/* Variables del tema oscuro */
+:root.modo-oscuro {
+    --color-primario: #0e0e10;
+    --color-secundario: #26262c;
+    --color-nav: #18181B;
+    --color-complementario: #fff9f2;
+    --color-texto:#f2f2f2;
+}
+/* Estilo del botón */
+.btn-tema {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 999px;
+  border: 1px solid var(--color-borde);
+  background: var(--color-superficie);
+  color: var(--color-texto);
+  cursor: pointer;
+  font-size: 14px;
+}
+
