@@ -14,7 +14,7 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
             <div class="container-fluid">
-            <!-- Logo / Brand -->
+            <!-- Logo -->
                 <a class="navbar-brand d-flex align-items-center" href="index.html">
                 <img src="Multimedia/Imagenes/Doña-Marci-Cuida.png" alt="Logo Doña Marci Cuida" width="50" height="50" class="me-2">
                     Doña Marci Cuida
@@ -33,17 +33,24 @@
                         <li class="nav-item"><a class="nav-link" href="programas.html">Programas</a></li>
                         <li class="nav-item"><a class="nav-link" href="contacto.html">Contactos</a></li>
                     </ul>
-                    
                 </div>
             </div>
         </nav>
         <!-- boton modo oscuro -->
         <button id="boton-modo-oscuro" class="btn-tema">
-          <div class="icono">🌙</div>
-          <div class="texto">Modo oscuro</div>
+          <span class="icono">🌙</span>
+          <span class="texto">Modo oscuro</span>
         </button> 
     </header>
-    <main>        
+
+    <main>
+        <!-- Banner -->
+        <section class="p-4 mb-4 rounded text-center">
+            <h1 class="fw-bold">Nuestras Vias de Comunicación</h1>
+            <p class="lead">Conocé nuestras vias de comunicación para ponerte en contacto con nosotros.</p>
+        </section>
+
+        <!-- Nuestro Equipo -->
         <section>
             <h2>Nuestro Equipo</h2>
             <ul>
@@ -54,72 +61,80 @@
                 <li><strong>Vicepresidente:</strong>[Rosana del Valle Morales]</li>
             </ul>
         </section>
-        
-        <section class="mb-4 p-4 rounded" id="comedor">
-            <div class="row align-items-center g-4">
-                <div class="col-12">
-                    <h2>Numeros de Telefonos</h2>
-                    <p>Puedes comunicarte con nosotros a través de las siguientes líneas:</p>
-                    <ul>
-                        <li><strong>Línea Principal:</strong> <a href="tel:+541143210040">(011) 4321-0040</a></li>
-                        <li><strong>WhatsApp:</strong> <a href="https://wa.me/5491110005000" target="_blank" rel="noopener noreferrer">+54 9 11 1000-5000</a></li>
-                        <li><strong>Logistica:</strong> <a href="tel:+5401148765432">(011) 4876-5432</a></li>
-                    </ul>
+
+        <!-- Telefonos -->
+        <section class="mb-4 p-4 rounded">
+            <div class="container">
+                <div class="row align-items-center g-4">
+                    <div class="col-12">
+                        <h2>Numeros de Telefonos</h2>
+                        <p>Puedes comunicarte con nosotros a través de las siguientes líneas:</p>
+                        <ul>
+                            <li><strong>Línea Principal:</strong> <a href="tel:+541143210040">(011) 4321-0040</a></li>
+                            <li><strong>WhatsApp:</strong> <a href="https://wa.me/5491110005000" target="_blank" rel="noopener noreferrer">+54 9 11 1000-5000</a></li>
+                            <li><strong>Logistica:</strong> <a href="tel:+5401148765432">(011) 4876-5432</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="mb-4 p-4 rounded" id="comedor">
-            <div class="row align-items-center g-4">
-                <div class="col-12">
-                    <h2>Dirección de Correo</h2>
-                    <p>Puedes comunicarte con nosotros a través del siguiente correo:</p>
-                    <ul>
-                        <li>
-                            <strong>Nuestro Correo:</strong>
-                            <a href="mailto:info@doñamarcicuida.com"> info@doñamarcicuida </a>
-                        </li>
-                    </ul>
+        <!-- Correo Electronico -->
+        <section class="mb-4 p-4 rounded" >
+            <div class="container">
+                <div class="row align-items-center g-4">
+                    <div class="col-12">
+                        <h2>Dirección de Correo</h2>
+                        <p>Puedes comunicarte con nosotros a través del siguiente correo:</p>
+                        <ul>
+                            <li>
+                                <strong>Nuestro Correo:</strong>
+                                <a href="mailto:info@doñamarcicuida.com"> info@doñamarcicuida </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="mb-4 p-4 rounded" id="comedor">
-            <div class="row align-items-center g-4">
-                <div class="col-12">
-                    <h2>Nuestras Sedes</h2>
-                    <h3>Sede Central</h3>
-                    <p>📍Calle Rivadavia 123, Buenos Aires</p>
+        <!-- Sedes y Ubicaciones -->
+        <section class="mb-4 p-4 rounded" >
+            <div class="container">
+                <div class="row align-items-center g-4">
+                    <div class="col-12">
+                        <h2>Nuestras Sedes</h2>
+                        <h3>Sede Central</h3>
+                        <p>📍Calle Rivadavia 123, Buenos Aires</p>
 
-                    <h3>Sede Cordoba</h3>
-                    <p>📍Calle San Lorenzo 120, Córdoba</p>
+                        <h3>Sede Cordoba</h3>
+                        <p>📍Calle San Lorenzo 120, Córdoba</p>
 
-                    <h3>Sede Bahia Blanca</h3>
-                    <p>📍Calle Vieytes 680, Bahía Blanca</p>
+                        <h3>Sede Bahia Blanca</h3>
+                        <p>📍Calle Vieytes 680, Bahía Blanca</p>
 
-                    <h3>Sede Mendoza</h3>
-                    <p>📍Calle Juan Agustin Maza 75, Mendoza</p>
+                        <h3>Sede Mendoza</h3>
+                        <p>📍Calle Juan Agustin Maza 75, Mendoza</p>
 
-                    <a href="programas.html#ubicaciones">Mas Ubicaciones</a>
-                    
+                        <a href="programas.html#ubicaciones" id="ubicacion-contenido">Mas Ubicaciones</a>
+                    </div>
                 </div>
             </div>
         </section>
          
 
-    <!-- Sección: Formulario de Contacto -->
+    <!-- Formulario de Contacto -->
     <section class="col-12">
         <h2>Envianos un mensaje</h2>
         <p>Si querés ser voluntario o necesitás ayuda, completá el siguiente formulario:</p>
         
         <form action="#" method="post">
             <p>
-                <label for="nombre">Nombre completo:</label><br>
+                <label for="nombre">Nombre completo:</label>
                 <input type="text" id="nombre" name="nombre" placeholder="Ej: Juan Pérez" required>
             </p>
 
             <p>
-                <label for="email">Correo electrónico:</label><br>
+                <label for="email">Correo electrónico:</label>
                 <input type="email" id="email" name="email" placeholder="nombre@ejemplo.com" required>
             </p>
 
@@ -134,8 +149,8 @@
             </p>
 
             <p>
-                <label for="mensaje">Tu mensaje:</label><br>
-                <textarea id="mensaje" name="mensaje" rows="5" cols="40" placeholder="Escribí aquí tu consulta..."></textarea>
+                <label for="mensaje">Tu mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" cols="40" placeholder="Escribí aquí tu consulta..." required></textarea>
             </p>
 
             <p>
@@ -144,11 +159,18 @@
             </p>
         </form>
     </section>
-    
-  </main>
-<aside>
+    </main>
 
-    </aside>
+    <!-- Aside -->
+    <aside class="mb-4 p-4 rounded">
+        <div class="aside-texto text-center p-5 rounded bg-dark text-white">
+            <h2 class="mb-3 fw-bold">Seguinos en Instagram</h2>
+            <img src="Multimedia/Imagenes/logo-instagram.png" alt="logo de instagram">
+            <a href="https://www.instagram.com/Do%C3%B1aMarciCuida-ong/" target="_blank" rel="noopener noreferrer" class="btn btn-donar btn-lg fw-bold px-4 mt-2">Seguinos</a>
+        </div>
+     </aside>
+
+     <!-- Footer -->
     <footer>
         <nav>
             <ul>
@@ -159,23 +181,7 @@
             </ul>
         </nav>
     </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      <address>
+    <address>
         <p>
             Copyright © 2026 | Doña Marci Cuida
         </p>

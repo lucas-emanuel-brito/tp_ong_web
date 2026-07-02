@@ -14,7 +14,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
             <div class="container-fluid">
-            <!-- Logo / Brand -->
+            <!-- Logo -->
                 <a class="navbar-brand d-flex align-items-center" href="index.html">
                 <img src="Multimedia/Imagenes/Doña-Marci-Cuida.png" alt="Logo Doña Marci Cuida" width="50" height="50" class="me-2">
                     Doña Marci Cuida
@@ -37,7 +37,7 @@
             </div>
         </nav>
 
-        <!-- Submenú específico de "Programas" -->
+        <!-- Submenú específico de "Nosotros" -->
         <nav class="sub-menu mt-2">
             <ul class="nav justify-content-center">
                 <li class="nav-item"><a class="nav-link" href="#historia">Historia</a></li>
@@ -46,19 +46,21 @@
             </ul>
               <!-- boton modo oscuro -->
         <button id="boton-modo-oscuro" class="btn-tema">
-          <div class="icono">🌙</div>
-          <div class="texto">Modo oscuro</div>
+          <span class="icono">🌙</span>
+          <span class="texto">Modo oscuro</span>
         </button> 
         </nav>
     </header>
     
     
     <main>
-        <section class="banner-hero p-4 mb-4 rounded text-center">
+        <!-- Banner -->
+        <section class="p-4 mb-4 rounded text-center">
             <h1 class="fw-bold">Nuestras Historia</h1>
             <p class="lead">Conocé nuestra historia y a quienes hacen todo esto sea posible</p>
         </section>
         
+        <!-- Historia de DMC -->
         <section id="historia">
             <h2>NUESTRA HISTORIA</h2>
                 <article>
@@ -86,6 +88,8 @@
                     </p>
                 </article>
         </section>
+
+        <!-- Valores de DMC -->
         <section id="valores">
             <h2>
                 NUESTROS VALORES
@@ -106,6 +110,8 @@
                 <strong>Integridad:</strong> Actuamos con honestidad y transparencia en todas nuestras acciones, asegurando que cada recurso se utilice de la mejor manera para beneficiar a quienes atendemos.
             </p>
         </section>
+
+        <!-- Equipo de DMC -->
         <section id="equipo">
             <h2>
                 NUESTRO EQUIPO
@@ -120,6 +126,8 @@
                 Desde voluntarios que colaboran en la cocina hasta coordinadores que organizan actividades, cada persona es fundamental para el éxito de nuestra ONG. Juntos, formamos una familia comprometida con el bienestar de nuestra comunidad.
             </p>
         </section>
+
+        <!-- dl de equipo DMC -->
         <section class="nosotros dl">
             <h2>
                 Nuestra Planta Orgánica
@@ -157,19 +165,16 @@
             </dl>
         </section>
     </main>
-    <aside class="container mb-4">
-        <section class="aside-banner text-center p-4 rounded">
-            <h2>¿Queres colaborar con nuestros programas?</h2>
-            <h4>Pasos para colaborar</h4>
-            <ol>
-                <li>Completar el formulario de contacto.</li>
-                <li>Esperar la respuesta del equipo.</li>
-                <li>Coordinar la forma de participación.</li>
-            </ol>
-            <a href="contacto.html" class="btn btn-donar mt-2">Sumate y Ayudanos →
-            </a>
-        </section>
-    </aside>
+
+    <!-- Aside -->
+    <aside class="mb-4 p-4 rounded">
+        <div class="aside-texto text-center p-5 rounded bg-dark text-white">
+            <h2 class="mb-3 fw-bold">¿Querés colaborar con nuestros programas?</h2>
+            <a href="contacto.html" class="btn btn-donar btn-lg fw-bold px-4 mt-2">Sumate y Ayudanos</a>
+        </div>
+     </aside>
+
+     <!-- Footer -->
     <footer>
         <nav>
             <ul>

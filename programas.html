@@ -14,7 +14,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
             <div class="container-fluid">
-            <!-- Logo / Brand -->
+            <!-- Logo -->
                 <a class="navbar-brand d-flex align-items-center" href="index.html">
                 <img src="Multimedia/Imagenes/Doña-Marci-Cuida.png" alt="Logo Doña Marci Cuida" width="50" height="50" class="me-2">
                     Doña Marci Cuida
@@ -46,32 +46,33 @@
             </ul>
             <!-- boton modo oscuro -->
         <button id="boton-modo-oscuro" class="btn-tema">
-          <div class="icono">🌙</div>
-          <div class="texto">Modo oscuro</div>
+          <span class="icono">🌙</span>
+          <span class="texto">Modo oscuro</span>
         </button> 
         </nav>
     </header>
 
 
     <main>
-        <section class="banner-hero p-4 mb-4 rounded text-center">
+        <!-- Banner -->
+        <section class="p-4 mb-4 rounded text-center">
             <h1 class="fw-bold">Nuestros Programas</h1>
             <p class="lead">Conocé todas las formas en que trabajamos <strong>POR</strong> y <strong>PARA</strong> la comunidad</p>
         </section>
 
-        <!-- PROGRAMA: COMEDOR -->
+        <!-- Programa Comedor -->
         <section class="mb-4 p-4 rounded" id="comedor">
-            <div class="row align-items-center g-4">
-                <div class="col-12 col-md-5">
-                    <img src="Multimedia/Imagenes/Comedor-Comunitario-Programa.png" alt="foto de unos de los comedores comunitario de Doña Marci Cuida" class="img-fluid rounded shadow">
-                </div>
-                <div class="col-12 col-md-7">
-                    <h2>🍜Comedores Doña Marci Cuida🍜</h2>
-                    <p>
-                        La organización cuenta actualmente con una red activa de más de <strong>20 comedores</strong> distribuidos a lo largo de todo el país, lo que permite brindar asistencia alimentaria diaria a más de 15 familias en cada uno de estos espacios. Estos comedores no solo ofrecen alimentos nutritivos, sino que también funcionan como puntos de encuentro comunitario donde se promueve la contención social y el acompañamiento a personas en situación de vulnerabilidad. El funcionamiento sostenido de esta red es posible gracias al compromiso de diversas instituciones colaboradoras, así como a las donaciones constantes de particulares. Entre las ubicaciones donde la ONG desarrolla sus actividades se encuentran Buenos Aires, La Plata, Mar del Plata, Bahía Blanca, Córdoba, Villa María, Rosario, Santa Fe, Paraná, Mendoza, San Rafael, San Juan, San Luis, Salta, San Salvador de Jujuy, Tucumán, Santiago del Estero, Neuquén, Bariloche y Comodoro Rivadavia. Además, se llevan a cabo campañas periódicas de recolección de alimentos y otros insumos esenciales para garantizar la continuidad del servicio. La organización invita a quienes deseen colaborar a sumarse como voluntarios o realizar donaciones a través de los canales disponibles en su <em>página de contacto</em>.
-                    </p>
-                    <p>
-                        <h3 class="mt-3">Lista de Ubicaciones</h3>
+            <div class="container">
+                <div class="row align-items-center g-4">
+                    <div class="col-12 col-md-5">
+                        <img src="Multimedia/Imagenes/Comedor-Comunitario-Programa.png" alt="foto de unos de los comedores comunitario de Doña Marci Cuida" class="img-fluid rounded shadow">
+                    </div>
+                    <div class="col-12 col-md-7">
+                        <h2>🍜Comedores Doña Marci Cuida🍜</h2>
+                        <p>
+                            La organización cuenta actualmente con una red activa de más de <strong>20 comedores</strong> distribuidos a lo largo de todo el país, lo que permite brindar asistencia alimentaria diaria a más de 15 familias en cada uno de estos espacios. Estos comedores no solo ofrecen alimentos nutritivos, sino que también funcionan como puntos de encuentro comunitario donde se promueve la contención social y el acompañamiento a personas en situación de vulnerabilidad. El funcionamiento sostenido de esta red es posible gracias al compromiso de diversas instituciones colaboradoras, así como a las donaciones constantes de particulares. Entre las ubicaciones donde la ONG desarrolla sus actividades se encuentran Buenos Aires, La Plata, Mar del Plata, Bahía Blanca, Córdoba, Villa María, Rosario, Santa Fe, Paraná, Mendoza, San Rafael, San Juan, San Luis, Salta, San Salvador de Jujuy, Tucumán, Santiago del Estero, Neuquén, Bariloche y Comodoro Rivadavia. Además, se llevan a cabo campañas periódicas de recolección de alimentos y otros insumos esenciales para garantizar la continuidad del servicio. La organización invita a quienes deseen colaborar a sumarse como voluntarios o realizar donaciones a través de los canales disponibles en su <em>página de contacto</em>.
+                        </p>
+                        <h3 class="mt-3" id="ubicaciones">Lista de Ubicaciones</h3>
                         <ul class="lista-programas">
                             <li>📍Calle Rivadavia 123, Buenos Aires.</li>
                             <li>📍Calle Av. 44 1127, La Plata</li>
@@ -84,12 +85,12 @@
                             <li>📍Calle Tomas de Rocamora 664, Paraná</li>
                             <li>📍Calle Juan Agustin Maza 75, Mendoza</li>
                         </ul>
-                    </p>
+                    </div>
                 </div>
-            </div>  
+            </div> 
         </section>
 
-        <!-- PROGRAMA: ROPERO -->
+        <!-- Programa Ropero -->
         <section class="seccion" id="ropero">
             <div class="row">
                 <div class="programas-img">
@@ -104,7 +105,7 @@
             </div>
         </section>
 
-        <!-- PROGRAMA: APOYO ESCOLAR -->
+        <!-- Programa Apoyo Escolar -->
         <section class="seccion" id="estudio">
             <div class="row">
                 <div class="programas-img">
@@ -115,28 +116,26 @@
                     <p>La organización ofrece un <strong>programa de apoyo escolar</strong> destinado a niños y adolescentes que se encuentren cursando la educación primaria y secundaria, con el objetivo de acompañar sus trayectorias educativas y fortalecer su aprendizaje. Este espacio busca brindar herramientas que permitan mejorar el rendimiento académico, reforzar contenidos y fomentar hábitos de estudio en un entorno de contención y acompañamiento.
                     Las clases de apoyo se desarrollan de manera grupal y personalizada, adaptándose a las necesidades de cada estudiante. Se brinda asistencia en materias clave como Matemáticas, Lengua, Geografía, Ciencias Sociales, Ciencias Naturales, Inglés e Historia, cubriendo así las áreas fundamentales del desarrollo educativo. Además, el programa promueve la participación activa, el pensamiento crítico y la confianza en las capacidades de cada alumno.
                     El equipo está conformado por voluntarios <strong>comprometidos</strong> con la educación, quienes dedican su tiempo a acompañar a los estudiantes en sus tareas escolares, preparación de exámenes y resolución de dudas. Este servicio es completamente gratuito y forma parte del compromiso de la organización con la igualdad de oportunidades. Para más información o inscripciones, se puede acceder a la sección de <em>contacto en la página</em>.</p>
-                    <p>
-                        <h3 class="mt-3">
-                            Materias
-                        </h3>
-                        <ul class="lista-programas">
-                            <li>📕Matemáticas</li>
-                            <li>📗Lengua</li>
-                            <li>📘Geografía</li>
-                            <li>📙Ciencias Sociales</li>
-                            <li>📕Ciencias Naturales</li>
-                            <li>📗Inglés</li>
-                            <li>📘Historia</li>
-                        </ul>
-                    </p>
+                    <h3 class="mt-3">Materias</h3>
+                    <ul class="lista-programas">
+                        <li>📕Matemáticas</li>
+                        <li>📗Lengua</li>
+                        <li>📘Geografía</li>
+                        <li>📙Ciencias Sociales</li>
+                        <li>📕Ciencias Naturales</li>
+                        <li>📗Inglés</li>
+                        <li>📘Historia</li>
+                    </ul>
                 </div>
             </div>
         </section>
     </main>
-    <aside class="container mb-4">
-        <section class="aside-banner text-center p-4 rounded">
+
+    <!-- Aside -->
+    <aside class="mb-4 p-4 rounded">
+        <div class="aside-texto text-center p-4 rounded">
             <h2>¿Queres colaborar con nuestros programas?</h2>
-            <h4>Pasos para colaborar</h4>
+            <h3>Pasos para colaborar</h3>
             <ol>
                 <li>Completar el formulario de contacto.</li>
                 <li>Esperar la respuesta del equipo.</li>
@@ -144,8 +143,10 @@
             </ol>
             <a href="contacto.html" class="btn btn-donar mt-2">Sumate y Ayudanos →
             </a>
-        </section>
+        </div>
     </aside>
+
+    <!-- Footer -->
     <footer>
         <nav>
             <ul>
