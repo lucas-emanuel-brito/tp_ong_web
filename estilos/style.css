@@ -305,10 +305,6 @@ option {
     color: black;
 }
 
-form input[type="submit"] {
-
-}
-
 form input[type="submit"]:hover{
     background-color: var(--color-complementario);
 }
